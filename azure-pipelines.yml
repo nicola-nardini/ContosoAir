@@ -8,8 +8,8 @@ trigger:
 
 pool:
   #vmImage: ubuntu-latest
-  name: Agent Giovanni Lanotte
-
+  #name: Agent Giovanni Lanotte
+  name: Azure Pipelines
 steps:
 - task: NodeTool@0
   inputs:
